@@ -23,6 +23,9 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Bundles from GitHub repos:
+"
+" airline-themes
+Plugin 'vim-airline/vim-airline-themes'
 
 " Python and PHP Debugger
 Bundle 'fisadev/vim-debug.vim'
