@@ -11,6 +11,7 @@ export ZSH=/Users/vaibhav/.oh-my-zsh
 #git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 ZSH_THEME="powerlevel9k/powerlevel9k"
 DEFAULT_USER=`whoami`
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv)
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
